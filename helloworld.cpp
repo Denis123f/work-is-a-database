@@ -174,10 +174,10 @@ int main() {
     добавить или уменьшить цену на товар
         */
     
-    constexpr const char* db_host = "localhost";
-    constexpr const char* db_user = "misha";
-    constexpr const char* db_pass = "denis";
-    constexpr const char* db_name = "newT";
+    constexpr const char* db_host = "...";
+    constexpr const char* db_user = "...";
+    constexpr const char* db_pass = "...";
+    constexpr const char* db_name = "...";
     
     pqxx::connection conn("dbname=" + std::string(db_name)      +
                           " user=" + std::string(db_user)       +
